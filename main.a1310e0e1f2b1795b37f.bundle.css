@@ -2170,7 +2170,7 @@ a {
       padding: 26px;
       position: relative; }
       #landing-pc .block-two .content .title {
-        width: 168px;
+        width: auto;
         height: 28px;
         font-family: PingFangSC;
         font-size: 20px;
@@ -2182,7 +2182,7 @@ a {
         color: #cbcbcb;
         margin-top: 64px; }
       #landing-pc .block-two .content .sub-title {
-        width: 336px;
+        width: auto;
         height: 56px;
         font-family: PingFangSC;
         font-size: 40px;
@@ -2216,7 +2216,7 @@ a {
           background-color: #09629d;
           padding-left: 43px; }
           #landing-pc .block-two .content .box .left-box .desc1 {
-            width: 192px;
+            width: auto;
             height: 84px;
             font-family: PingFangSC;
             font-size: 20px;
@@ -2754,18 +2754,25 @@ a {
         background-repeat: no-repeat;
         background-size: 100%; }
       #landing-pc .block-six .content2 .img-gym2 {
-        width: 150px;
-        height: 90px;
+        width: 502px;
+        height: 320px;
         background-image: url(Img/demo_02.png);
         background-repeat: no-repeat;
         background-size: 100%; }
       #landing-pc .block-six .content2 .img-gym3 {
-        width: 150px;
-        height: 90px;
+        width: 502px;
+        height: 320px;
         background-image: url(Img/demo_03.png);
         background-repeat: no-repeat;
-        background-size: 100%;
-        margin: 0 13px; }
+        background-size: 100%; }
+      #landing-pc .block-six .content2 .row-pic .img-thumb {
+        width: 150px;
+        height: 90px;
+        cursor: pointer; }
+      #landing-pc .block-six .content2 .row-pic .img-thumb.img-gym2 {
+        margin-left: 13px; }
+      #landing-pc .block-six .content2 .row-pic .img-thumb.img-gym3 {
+        margin-left: 13px; }
   #landing-pc .block-footer {
     width: 100%;
     height: 680px;

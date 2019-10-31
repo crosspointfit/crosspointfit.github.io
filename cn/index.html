@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动点AI 体态分析</title>
+    <meta name="author" content="Crosspoint.fit">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="以AI 结合专业运动康复理论 建立标准化及智能化健康数据中心">
+    <meta name="keywords" content="动点AI 体态分析-以AI 结合专业运动康复理论 建立标准化及智能化健康数据中心">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if( IsPC()){
+                    docEl.style.fontSize = 100 * (clientWidth / 1440) + 'px';
+                    // docEl.style.fontSize = '100px';
+                    return;
+                }
+                docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+            };
+           var IsPC= function (){  
+                var userAgentInfo = navigator.userAgent;
+                var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
+                var flag = true;  
+                for (var v = 0; v < Agents.length; v++) {  
+                    if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
+                }  
+                return flag;  
+            }
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link href="main.04cb71e5ea24e24c6995.bundle.css?ver=2019826" rel="stylesheet"></head>
+    <body>
+        <div id="container"></div>
+    <script type="text/javascript" src="manifest.04cb71e5ea24e24c6995.js"></script><script type="text/javascript" src="vendor.04cb71e5ea24e24c6995.js"></script><script type="text/javascript" src="main.04cb71e5ea24e24c6995.js"></script></body>
+</html>

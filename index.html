@@ -25,14 +25,14 @@
                 }
                 docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
             };
-           var IsPC= function (){  
+           var IsPC= function (){
                 var userAgentInfo = navigator.userAgent;
-                var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");  
-                var flag = true;  
-                for (var v = 0; v < Agents.length; v++) {  
-                    if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }  
-                }  
-                return flag;  
+                var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+                var flag = true;
+                for (var v = 0; v < Agents.length; v++) {
+                    if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+                }
+                return flag;
             }
             if (!doc.addEventListener) return;
             win.addEventListener(resizeEvt, recalc, false);
@@ -40,8 +40,17 @@
         })(document, window);
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-<link href="main.5fd5d3b4ca2b5b3d93a4.bundle.css?ver=2019111" rel="stylesheet"></head>
+<link href="main.1d9bf651691547c35b5e.bundle.css?ver=20191115" rel="stylesheet"></head>
     <body>
         <div id="container"></div>
-    <script type="text/javascript" src="vendor.5fd5d3b4ca2b5b3d93a4.js"></script><script type="text/javascript" src="manifest.5fd5d3b4ca2b5b3d93a4.js"></script><script type="text/javascript" src="main.5fd5d3b4ca2b5b3d93a4.js"></script></body>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151404984-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-151404984-1');
+        </script>
+        </script></script>
+    <script type="text/javascript" src="vendor.1d9bf651691547c35b5e.js"></script><script type="text/javascript" src="manifest.1d9bf651691547c35b5e.js"></script><script type="text/javascript" src="main.1d9bf651691547c35b5e.js"></script></body>
 </html>

@@ -40,9 +40,36 @@
         })(document, window);
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-<link href="main.f5be84332a57380cd279.bundle.css?ver=2020311" rel="stylesheet"></head>
+<link href="main.840f9bb00f34f8794e8b.bundle.css?ver=2020316" rel="stylesheet"></head>
     <body>
-        <div id="container"></div>
+         <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v6.0'
+            });
+          };
+
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!-- Your customer chat code -->
+        <div class="fb-customerchat"
+             attribution=setup_tool
+             page_id="106516264132558"
+             logged_in_greeting="你好 :D 有甚麼我能幫忙的呢?"
+             logged_out_greeting="你好 :D 有甚麼我能幫忙的呢?">
+        </div>
+         
+         <div id="container"></div>
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152904706-2"></script>
         <script>
@@ -51,5 +78,5 @@
             gtag('js', new Date());
             gtag('config', 'UA-152904706-2');
         </script>
-    <script type="text/javascript" src="vendor.f5be84332a57380cd279.js"></script><script type="text/javascript" src="manifest.f5be84332a57380cd279.js"></script><script type="text/javascript" src="main.f5be84332a57380cd279.js"></script></body>
+    <script type="text/javascript" src="manifest.840f9bb00f34f8794e8b.js"></script><script type="text/javascript" src="vendor.840f9bb00f34f8794e8b.js"></script><script type="text/javascript" src="main.840f9bb00f34f8794e8b.js"></script></body>
 </html>
